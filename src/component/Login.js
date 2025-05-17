@@ -910,7 +910,7 @@ const AuthForm = () => {
     localStorage.setItem("userData", JSON.stringify(customerSessionData));
     login(customerSessionData);
     toast.success("Login successful!");
-    setTimeout(() => navigate("/home"), 1000);
+    setTimeout(() => navigate("/"), 1000);
   } else {
     toast.error("Invalid mobile number or password");
   }
@@ -945,7 +945,7 @@ const AuthForm = () => {
     login(customerSessionData);
 
     toast.success("Registration successful! You are now logged in.");
-    setTimeout(() => navigate("/home"), 1000);
+    setTimeout(() => navigate("/"), 1000);
   };
 
   const togglePasswordVisibility = () => {

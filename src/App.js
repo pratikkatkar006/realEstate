@@ -122,7 +122,7 @@ function App() {
     <AuthProvider>
       <Router>
         <Routes>
-          <Route path="/home" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/login" element={<Login />} />
           {/* <Route path="/property/:category/:id" element={<PropertyDetail />} /> */}
           <Route path="/AttractiveSlider" element={<AttractiveSlider />} />

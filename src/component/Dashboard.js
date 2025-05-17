@@ -3384,7 +3384,7 @@ const Dashboard = () => {
     }}>
       <button 
         onClick={() => {
-          navigate("/home");
+          navigate("/");
           setMobileMenuOpen(false);
         }}
         style={{
